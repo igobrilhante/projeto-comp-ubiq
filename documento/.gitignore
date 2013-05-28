@@ -1,0 +1,8 @@
+# Ignorar latex configs
+
+*.aux
+*.pdf
+*.bbl
+*.log
+*.blg
+*.synctex.gz
