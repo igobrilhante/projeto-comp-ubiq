@@ -1,16 +1,58 @@
 \documentclass[11pt,a4paper,oneside]{article}
 
+
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \author{Igo Ramalho Brilhante \and Tales Parente}
-\title{Documento de Requisitos}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
 
 \begin{document}
 
-\maketitle
+
+\begin{titlepage}
+\begin{center}
+
+% Upper part of the page. The '~' is needed because \\
+% only works if a paragraph has started.
+\includegraphics[scale=0.3]{figuras/brasao_ufc.jpg}~\\[1cm]
+
+\textsc{\LARGE Universidade Federal do Ceará}\\[1.5cm]
+
+\textsc{\Large Recomenda AI - \textsc{RAI}}\\[0.5cm]
+
+% Title
+\HRule \\[0.4cm]
+{ \huge \bfseries Documento de Requisitos}\\[0.4cm]
+
+\HRule \\[1.5cm]
+
+% Author and supervisor
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Equipe:}\\
+Igo \textsc{Brilhante}\\
+Tales \textsc{Parent}
+\end{flushleft}
+\end{minipage}
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Professores:} \\
+%Dr.~Mark \textsc{Brown}
+%\end{flushright}
+%\end{minipage}
+
+\vfill
+
+% Bottom of the page
+{\large Junho 2013}
+
+\end{center}
+\end{titlepage}
 
 \section{Introdução}
 
