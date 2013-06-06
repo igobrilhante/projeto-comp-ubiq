@@ -1,7 +1,7 @@
 # Ignorar latex configs
 
 *.aux
-*.pdf
+#*.pdf
 *.bbl
 *.log
 *.blg
