@@ -45,7 +45,7 @@
 
 % Upper part of the page. The '~' is needed because \\
 % only works if a paragraph has started.
-\includegraphics[scale=0.3]{figuras/brasao_ufc.jpg}~\\[1cm]
+\includegraphics[scale=0.3]{../figuras/brasao_ufc.jpg}~\\[1cm]
 
 \textsc{\LARGE Universidade Federal do Ceará}\\[1.5cm]
 
@@ -89,6 +89,13 @@ Tales \textsc{Parent}
 \section{Arquitetura de Sistemas}
 \note{Descrever a arquitetura}
 
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{../figuras/arquitetura-rai.png}
+	\caption{Arquitetura de sistema mostrando os componentes envolvidos e suas interações.}
+	\label{fig:arquitetura-rai}
+\end{figure}
+
 \section{Especificação de Requisitos do Sistema}
 
 \subsection{Requisitos Funcionais}
@@ -113,8 +120,8 @@ Os requisitos não funcionais são:
 \subsection{Visão Geral}
 
 \begin{figure}
+\centering
 \includegraphics[scale=0.5]{../casos-de-usos/casos-de-usos-app-servidor.png}
-
 \caption{Casos de usos para o ator \emph{aplicação móvel}.}
 \label{fig:casos-de-usos-app-servidor}
 \end{figure}
