@@ -124,9 +124,9 @@ public class LocationSensor implements
 //    	float accuracy 		= location.getAccuracy();
     	double latitude 	= location.getLatitude();
     	double longitude	= location.getLongitude();
-    	long time 			= location.getElapsedRealtimeNanos();
+//    	long time 			= location.getElapsedRealtimeNanos();
     	Calendar c			= new GregorianCalendar();
-    	c.setTimeInMillis(time);
+//    	c.setTimeInMillis(time);
     	
     	this.contextManager.putContextEntry(ContextEnum.LATITUDE, latitude);
     	this.contextManager.putContextEntry(ContextEnum.LONGITUDE, longitude);
